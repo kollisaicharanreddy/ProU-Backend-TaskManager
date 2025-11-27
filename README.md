@@ -83,10 +83,17 @@ curl -X POST http://localhost:8080/api/tasks \
 
 ## Assumptions
 - An in-memory H2 database is used for simplicity. Data will be lost on restart.
-- No authentication is implemented (as per core requirements).
 - "Status" is an Enum: `PENDING`, `IN_PROGRESS`, `COMPLETED`.
 
 ## Sample Data
 The application can be pre-loaded with data using `src/main/resources/data.sql`.
 A reference database schema is provided in `src/main/resources/schema.sql`.
+
+## Screenshots
+
+![Screenshot 1](s1.png)
+![Screenshot 2](s2.png)
+
+![Screenshot 3](s3.png)
+![Screenshot 4](s4.png)
 
